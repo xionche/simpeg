@@ -755,6 +755,8 @@ class CircularLoop(MagDipole):
         Source current
     mu : float
         Background magnetic permeability
+    n_turns : int, default: 1
+        Number of turns in the loop
     """
 
     def __init__(
